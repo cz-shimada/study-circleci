@@ -1,0 +1,2 @@
+# study-circleci
+scala project
