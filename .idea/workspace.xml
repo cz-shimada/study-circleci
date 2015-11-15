@@ -74,8 +74,8 @@
       <file leaf-file-name="circleci.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/circleci.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5409015">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.120200336">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -181,8 +181,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1206" />
-    <option name="y" value="69" />
+    <option name="x" value="704" />
+    <option name="y" value="63" />
     <option name="width" value="1920" />
     <option name="height" value="1053" />
   </component>
@@ -871,7 +871,7 @@
       <workItem from="1447529461951" duration="537000" />
       <workItem from="1447569949262" duration="428000" />
       <workItem from="1447570459272" duration="1121000" />
-      <workItem from="1447571588949" duration="2385000" />
+      <workItem from="1447571588949" duration="3124000" />
     </task>
     <task id="LOCAL-00001" summary="test comit">
       <created>1447571375354</created>
@@ -891,14 +891,20 @@
       <option name="project" value="LOCAL" />
       <updated>1447573343876</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix circleci 2">
+      <created>1447574613175</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1447574613175</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4471000" />
+    <option name="totallyTimeSpent" value="5210000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1206" y="69" width="1920" height="1053" extended-state="0" />
+    <frame x="704" y="63" width="1920" height="1053" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -930,7 +936,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test comit" />
     <MESSAGE value="fix circleci" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix circleci" />
+    <MESSAGE value="fix circleci 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix circleci 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1291,8 +1298,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/circleci.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5409015">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.120200336">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
           <folding />
         </state>
       </provider>

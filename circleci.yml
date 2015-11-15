@@ -1,18 +1,26 @@
 machine:
-  java:
-    version: oraclejdk8
   timezone:
     Asia/Tokyo
+  java:
+    version: oraclejdk8
+
+# Collect build artifacts
+general:
+  artifacts:
+    - target/universal
 
 dependencies:
   pre:
     - echo '-mem 800' >> .sbtopts
   cache_directories:
-    - ~/.m2
-    - ~/.ivy2
-    - ~/.sbt
+    - "~/.sbt"
+    - "target/resolution-cache"
+    - "target/streams"
+    - "project/target/resolution-cache"
+    - "project/target/streams"
+  # Compile all sources
   override:
-    - sbt update
+    - sbt test:compile
 
 test:
   override:
