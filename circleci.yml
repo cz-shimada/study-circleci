@@ -1,6 +1,17 @@
 machine:
   timezone:
     Asia/Tokyo
+  java:
+    version:
+      oraclejdk8
+
+dependencies:
+  pre:
+    - echo '-mem 800' >> .sbtopts
+  cache_directories:
+    - ~/.m2
+    - ~/.ivy2
+    - ~/.sbt
 
 test:
   override:
