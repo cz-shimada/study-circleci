@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9fb39ffb-1ef5-4f79-811e-c07925b3782b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/circleci.yml" afterPath="$PROJECT_DIR$/circleci.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -181,7 +180,7 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="704" />
+    <option name="x" value="703" />
     <option name="y" value="63" />
     <option name="width" value="1920" />
     <option name="height" value="1053" />
@@ -871,7 +870,7 @@
       <workItem from="1447529461951" duration="537000" />
       <workItem from="1447569949262" duration="428000" />
       <workItem from="1447570459272" duration="1121000" />
-      <workItem from="1447571588949" duration="3616000" />
+      <workItem from="1447571588949" duration="3730000" />
     </task>
     <task id="LOCAL-00001" summary="test comit">
       <created>1447571375354</created>
@@ -909,14 +908,20 @@
       <option name="project" value="LOCAL" />
       <updated>1447575714259</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fix circleci 5">
+      <created>1447575841956</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1447575841956</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5702000" />
+    <option name="totallyTimeSpent" value="5816000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="704" y="63" width="1920" height="1053" extended-state="0" />
+    <frame x="703" y="63" width="1920" height="1053" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -951,7 +956,8 @@
     <MESSAGE value="fix circleci 2" />
     <MESSAGE value="fix circleci 3" />
     <MESSAGE value="fix circleci 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix circleci 4" />
+    <MESSAGE value="fix circleci 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix circleci 5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
