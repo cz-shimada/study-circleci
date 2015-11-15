@@ -11,6 +11,8 @@ dependencies:
     - ~/.m2
     - ~/.ivy2
     - ~/.sbt
+  override:
+    - sbt update
 
 test:
   override:
