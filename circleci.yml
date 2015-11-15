@@ -1,9 +1,8 @@
 machine:
+  java:
+    version: oraclejdk8
   timezone:
     Asia/Tokyo
-  java:
-    version:
-      oraclejdk8
 
 dependencies:
   pre:
