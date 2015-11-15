@@ -74,8 +74,8 @@
       <file leaf-file-name="circleci.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/circleci.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.120200336">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.8714524">
+              <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -871,7 +871,7 @@
       <workItem from="1447529461951" duration="537000" />
       <workItem from="1447569949262" duration="428000" />
       <workItem from="1447570459272" duration="1121000" />
-      <workItem from="1447571588949" duration="3124000" />
+      <workItem from="1447571588949" duration="3488000" />
     </task>
     <task id="LOCAL-00001" summary="test comit">
       <created>1447571375354</created>
@@ -897,11 +897,17 @@
       <option name="project" value="LOCAL" />
       <updated>1447574613175</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix circleci 3">
+      <created>1447575349909</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1447575349909</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5210000" />
+    <option name="totallyTimeSpent" value="5574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="704" y="63" width="1920" height="1053" extended-state="0" />
@@ -937,7 +943,8 @@
     <MESSAGE value="test comit" />
     <MESSAGE value="fix circleci" />
     <MESSAGE value="fix circleci 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix circleci 2" />
+    <MESSAGE value="fix circleci 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix circleci 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1298,8 +1305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/circleci.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.120200336">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.8714524">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding />
         </state>
       </provider>

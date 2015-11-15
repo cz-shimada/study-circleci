@@ -1,6 +1,5 @@
 machine:
-  timezone:
-    Asia/Tokyo
+  timezone: UTC
   java:
     version: oraclejdk8
 
@@ -10,8 +9,7 @@ general:
     - target/universal
 
 dependencies:
-  pre:
-    - echo '-mem 800' >> .sbtopts
+  # Cache the resolution-cache and build streams to speed things up
   cache_directories:
     - "~/.sbt"
     - "target/resolution-cache"
@@ -25,3 +23,8 @@ dependencies:
 test:
   override:
     - sbt test
+  # Copy test reports to Circle test reports dir then package app for deploy
+  post:
+    - mkdir -p $CIRCLE_TEST_REPORTS/junit/
+    - find . -type f -regex ".*/target/test-reports/.*xml" -exec cp {} $CIRCLE_TEST_REPORTS/junit/ \;
+    - sbt dist
